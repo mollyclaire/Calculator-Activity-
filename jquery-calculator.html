@@ -67,9 +67,9 @@
             <h1 id="second-number"></h1>
             <hr>
             <h1 id="result"></h1>
-            <h1 id="total"></h1>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -78,25 +78,21 @@
 
 $(document).ready(function() {
 
-  var a = 1;
-$("#button-1").on("click", function (){
-  $("#total").text(a);
+var firstnumber = $("#first-number");
+var operator = $("#operator");
+var secondnumber = $("#second-number");
+var result = $("#result");
+var firstnum = "";
+
+$(".number").on("click", function (){
+  console.log(this);
+  var num = $(this).attr("value");
+  console.log(num);
+  firstnum = firstnum + num;
+  console.log(firstnum);
+  $("#first-number").text(firstnum);
   
 });
-
-var b = 2;
-$("#button-2").on("click", function (){
-  $("#total").text(b);
-  
-});
-
-var plus = fuction(a,b) ;
-$("#button-plus").on("click", function (){
-  return a + b;
-  
-});
-// Your code here...
-
 
 
 });

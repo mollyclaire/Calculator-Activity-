@@ -83,6 +83,7 @@ var operator = $("#operator");
 var secondnumber = $("#second-number");
 var result = $("#result");
 var firstnum = "";
+var isOperatorChosen = true;
 
 $(".number").on("click", function (){
   console.log(this);
@@ -93,6 +94,16 @@ $(".number").on("click", function (){
   $("#first-number").text(firstnum);
   
 });
+
+$(".operator").on("click", function (){
+  var operator = $(this).attr("value");
+  $("#operator").text(operator);
+  isOperatorChosen = true; 
+}) 
+
+if 
+
+
 
 
 });

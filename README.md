@@ -1,3 +1,3 @@
 # Calculator-Activity-
 
-## Collaborators: Brittany, Megan, Trinh, Sharath
+## Collaborators: Brittany, Megan, Trinh, Sharath, Molly
